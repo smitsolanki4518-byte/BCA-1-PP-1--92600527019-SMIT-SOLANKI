@@ -1,22 +1,34 @@
+
 #include<stdio.h>
 #include<conio.h>
 void main()
 {
-	float num1,num2;
+	int x,y,z;
 	clrscr();
-	printf("\ enter two numbers:");
-	scanf("%f%f",&num1,&num2);
-	if(num1>num2)
+	printf("\n enter value of three :");
+	scanf("%d%d",&x,&y,&z);
+	if(x==y)
 	{
-		printf("\n maximum value is:%.2f",num1);
-	}
-	else if(num2>num1)
-	{
-		printf("\n maximum value is:%.2f",num2);
+		printf("\n botha are same:");
+
 	}
 	else
 	{
-		printf("\n both numbers are equal.");
+		printf("\n both are not equal:");
+		if(x>y)
+		{
+			printf("\n x is max");
+			z=x*x;
+			printf("\n square is: %d",x*x);
+		}
+		else
+		{
+			printf("\n y is max");
+			z=y*y;
+			printf("\n square is :%d",y*y);
+
+			
+		}
 	}
 	getch();
 }
