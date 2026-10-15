@@ -1,13 +1,21 @@
-
 #include<stdio.h>
 #include<conio.h>
 void main()
 {
-	int i;
+	int i,N,j;
 	clrscr();
-	for(i=100;i<=90;i+=2)
+
+	for(i=1;i<='N';i=+2
 	{
-		printf(" %d",i);
+		printf("\t %d",i);
+	}
+	printf("\n:");
+	printf("\n for while loop:");
+	j=1;
+	while(j<='N')
+	{
+		printf("\t %d",j);
+		j+=2;
 	}
 	getch();
 }
