@@ -3,7 +3,7 @@
 #include<conio.h>
 void main()
 {
-	int i;
+	int i,j;
 	clrscr();
 
 
@@ -11,5 +11,16 @@ void main()
 	{
 		printf(" %d",i);
 	}
+
+	printf("\n:");
+	printf("\n for while loop:");
+	j=200;
+	while(j>=180)
+	{
+		printf("\t %d",j);
+		j-=2;
+	}
+
+
 	getch();
 }
